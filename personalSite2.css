@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    background-color: #11587e;
+    color: rgb(183, 184, 188);
+    font-family: Monaco;
 }
 
 .topnav {
@@ -15,15 +18,17 @@ body {
     text-decoration: none;
     font-size: 17px;
     padding: 10px 20px;
+    color: rgb(183, 184, 188);
 }
 
 .topnav a:hover {
-    background-color: black;
+    font-weight: bold;
     color: white;
 }
 
 .topnav a.active {
-    background-color: orange;
+    color: white;
+    font-weight: bold;
 }
 
 .container {
@@ -36,6 +41,7 @@ h1 {
     padding-top: 150px;
     margin-bottom: 2vw;
     font-size: 3vw;
+    color: white;
 }
 
 /*
@@ -45,6 +51,10 @@ h1 {
 }
 */
 
+h3 {
+    max-width: 65%;
+    align-self: center;
+}
 p {
     max-width: 65%;
     align-self: center;
@@ -57,4 +67,5 @@ p {
     align-self: center;
     font-weight: bold;
     font-size: 1.5vw;
+    color: white;
 }

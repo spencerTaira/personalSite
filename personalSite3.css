@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    background-color: #11587e;
+    color: rgb(183, 184, 188);
+    font-family: Monaco;
 }
 
 .topnav {
@@ -15,15 +18,17 @@ body {
     text-decoration: none;
     font-size: 17px;
     padding: 10px 20px;
+    color: rgb(183, 184, 188);
 }
 
 .topnav a:hover {
-    background-color: black;
+    font-weight: bold;
     color: white;
 }
 
 .topnav a.active {
-    background-color: orange;
+    color: white;
+    font-weight: bold;
 }
 
 .container {
@@ -32,9 +37,9 @@ body {
 }
 
 p {
-    margin-top: 300px;
+    margin-top: 20vw;
     align-self: center;
-    font-size: 20px;
+    font-size: 3vw;
     font-weight: bold;
 }
 
