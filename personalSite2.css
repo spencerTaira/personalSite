@@ -34,7 +34,8 @@ body {
 h1 {
     text-align: center;
     padding-top: 150px;
-    margin-bottom: 40px;
+    margin-bottom: 2vw;
+    font-size: 3vw;
 }
 
 /*
@@ -47,13 +48,13 @@ h1 {
 p {
     max-width: 65%;
     align-self: center;
-    margin: 8px;
-    font-size: 20px;
+    margin: 1vw;
+    font-size: 1.5vw;
 }
 
 #resume {
-    margin-top: 40px;
+    margin-top: 2vw;
     align-self: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
