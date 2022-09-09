@@ -25,3 +25,24 @@ body {
 .topnav a.active {
     background-color: orange;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 0px;
+}
+
+#name {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+p {
+    max-width: 50%;
+    align-self: center;
+}
